@@ -15,6 +15,9 @@ environment:
     - TARGET_ARCH: "x64"
       CONDA_PY: "37"
       CONDA_INSTALL_LOCN: "C:\\Miniconda37-x64"
+    - TARGET_ARCH: "x64"
+      CONDA_PY: "39"
+      CONDA_INSTALL_LOCN: "C:\\Miniconda39-x64"
 
 artifacts:
     # Store built conda packages as artifacts
